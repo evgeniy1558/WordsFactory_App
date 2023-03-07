@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WordsFactory</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="intro1.1_text">Learn anytime \nand anywhere</string>
+    <string name="intro1.2_text">Quarantine is the perfect time to spend your \nday learning something new, from anywhere!</string>
+    <string name="intro2.1_text">Find a course \nfor you</string>
+    <string name="intro3.1_text">Improve your skills</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
