@@ -8,4 +8,12 @@
     <string name="intro3.1_text">Improve your skills</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signup">Sign up</string>
+    <string name="create_account_your">Create your account</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="test_color_text"><font color='#65AAEA'>Example: </font> he developed an interest in cooking.</string>
+    <string name="add_to_dic">Add to Dictionary</string>
 </resources>

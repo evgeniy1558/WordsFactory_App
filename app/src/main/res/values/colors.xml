@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="textGrey">#78746D</color>
     <color name="buttonColor">#E3562A</color>
+    <color name="textHead">#3C3A36</color>
 </resources>

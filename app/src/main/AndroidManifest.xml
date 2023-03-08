@@ -12,13 +12,19 @@
         android:theme="@style/Theme.WordsFactory"
         tools:targetApi="33">
         <activity
+            android:name=".Word"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".Intro"
             android:exported="false"
             android:label="Intro" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.WordsFactory">
+            android:theme="@style/Theme.WordsFactory.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
