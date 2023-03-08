@@ -20,9 +20,9 @@ class Intro : AppCompatActivity() {
         setContentView(binding.root)
 
         viewPager = binding.viewpagerintro
-        viewPager.adapter = PagerAdapterIntro(this)
+        viewPager.adapter = PagerAdapter(this)
 
-        viewPager?.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
+        viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
                 if (position == 2) {
@@ -56,7 +56,7 @@ class Intro : AppCompatActivity() {
         if(currentPageIndex > 0){
             currentPageIndex--
             viewPager.setCurrentItem(currentPageIndex, true)
-            if(currentPageIndex != 2) binding.buttonNext.text = "Next"
+            if(currentPageIndex < 2) binding.buttonNext.text = "Next"
         } else {
             super.onBackPressed()
         }
