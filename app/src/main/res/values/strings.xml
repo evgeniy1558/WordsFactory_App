@@ -25,4 +25,5 @@
     <string name="login_fail_empty_fields">Some of your fields does not contain any text.</string>
     <string name="search_course">Search Course</string>
     <string name="lets_learn">Let\'s learn!</string>
+    <string name="hint_dictionary_search">Search</string>
 </resources>
